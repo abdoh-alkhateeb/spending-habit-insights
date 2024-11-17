@@ -1,3 +1,3 @@
-# Spending Habits Insights
+# Spending Habit Insights Frontend
 
-This is a repository that hosts the code for a single-page website that offers spending habit insights from customer receipts.
+This repository contains the frontend code for the Spending Habit Insights single-page application.
