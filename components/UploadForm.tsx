@@ -52,7 +52,7 @@ const UploadForm: React.FC<UploadFormProps> = ({ setResponse }) => {
         type="file"
         onChange={handleFileChange}
         multiple
-        accept=".heic,.jpg,.jpeg,.png"
+        accept="image/png, image/jpeg"
         className="block w-full mb-4 text-sm text-gray-300
           file:mr-4 file:py-2 file:px-4
           file:rounded-lg file:border-0
