@@ -23,7 +23,7 @@ const UploadForm: React.FC<UploadFormProps> = ({ setResponse }) => {
 
     try {
       const res: AxiosResponse<string> = await axios.post(
-        process.env.BACKEND_UPLOAD_URL as string,
+        process.env.NEXT_PUBLIC_BACKEND_UPLOAD_URL as string,
         {
           files: selectedFiles,
         },
